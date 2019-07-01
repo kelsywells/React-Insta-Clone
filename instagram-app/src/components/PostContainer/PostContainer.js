@@ -8,7 +8,7 @@ const PostContainer= (props) => {
     <div className="post-container">
 
         {props.post.map(p => <Posts key={p.imageUrl} posts={p} />)}
-
+        <input type= "text" placeholder="Add a comment" />
         
     </div>
     
